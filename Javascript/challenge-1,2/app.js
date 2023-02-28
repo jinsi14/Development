@@ -1,7 +1,7 @@
 /*
 Mark and John are trying to compare their BMI (Body Mass Index), which is
 calculated using the formula:
-BMI = mass / height ** 2 = mass / (height * height) (mass in kg
+BMI = mass / height ** 2 = mass /eight * h (height) (mass in kg
 and height in meter).
 
 Your tasks:
@@ -34,9 +34,13 @@ const BMIJohn = massJohn / heightJohn ** 2;
 
 console.log(BMIMark);
 console.log(BMIJohn);
- 
-if(BMIMark > BMIJohn){
-    console.log(`Mark's BMI (${BMIMark}) is higher than john's (${BMIJohn})!`);
-}else {
-    console.log(`John's BMI (${BMIJohn}) is higher than mark's (${BMIMark})!`);
+
+if (BMIMark > BMIJohn) {
+  console.log(`Mark's BMI (${BMIMark}) is higher than john's (${BMIJohn})!`);
+} else {
+  console.log(`John's BMI (${BMIJohn}) is higher than mark's (${BMIMark})!`);
 }
+
+let x = 2;
+x = x ** 3;
+console.log(x);
