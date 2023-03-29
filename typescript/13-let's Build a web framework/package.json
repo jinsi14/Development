@@ -1,0 +1,22 @@
+{
+  "devDependencies": {
+    "typescript": "^4.4.3"
+  },
+  "dependencies": {
+    "@types/node": "^18.15.3",
+    "axios": "^0.21.4",
+    "concurrently": "^7.6.0",
+    "nodemon": "^2.0.21"
+  },
+  "scripts": {
+    "start:db": "json-server -w db.json",
+    "start:parcel": "parcel index.html"
+  },
+  "name": "13-let's-build-a-web-framework",
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
