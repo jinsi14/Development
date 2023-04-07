@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Output</title>
+  </head>
+  <center>
+    <body>
+      <span id="result"></span>
+      <script>
+        document.getElementById(
+          "result"
+        ).innerHTML = `<b>${localStorage.getItem("textvalue")}</b> `;
+      </script>
+
+      <span id="resultitalic"></span>
+      <script>
+        document.getElementById(
+          "resultitalic"
+        ).innerHTML = `<i>${localStorage.getItem("value")}</i> `;
+      </script>
+
+      <span id="resultunderline"></span>
+      <script>
+        document.getElementById(
+          "resultunderline"
+        ).innerHTML = `<u>${localStorage.getItem("valueunderline")}</u> `;
+      </script>
+
+      <script src="script.js"></script>
+    </body>
+  </center>
+</html>
