@@ -1,0 +1,78 @@
+Arguments: 
+  /home/pp-4/.nvm/versions/node/v14.18.2/bin/node /home/pp-4/.nvm/versions/node/v14.18.2/bin/yarn add react@latest react-dom@latest boostrap@latest ....so on
+
+PATH: 
+  /home/pp-4/.nvm/versions/node/v14.18.2/bin:/home/pp-4/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/pp-4/.local/share/JetBrains/Toolbox/scripts:/usr/lib/jvm/1.8.0_112/bin:/usr/share/maven/bin:/usr/local/elasticsearch/7.6.2/bin:/usr/local/hadoop/2.6.1/bin:/usr/local/hadoop/2.6.1/sbin:/usr/lib/jvm/1.8.0_112/bin:/usr/share/maven/bin:/usr/local/elasticsearch/7.6.2/bin:/usr/local/hadoop/2.6.1/bin:/usr/local/hadoop/2.6.1/sbin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  14.18.2
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/....so: Not found
+      at Request.params.callback [as _callback] (/home/pp-4/.nvm/versions/node/v14.18.2/lib/node_modules/yarn/lib/cli.js:67029:18)
+      at Request.self.callback (/home/pp-4/.nvm/versions/node/v14.18.2/lib/node_modules/yarn/lib/cli.js:140883:22)
+      at Request.emit (events.js:400:28)
+      at Request.<anonymous> (/home/pp-4/.nvm/versions/node/v14.18.2/lib/node_modules/yarn/lib/cli.js:141855:10)
+      at Request.emit (events.js:400:28)
+      at IncomingMessage.<anonymous> (/home/pp-4/.nvm/versions/node/v14.18.2/lib/node_modules/yarn/lib/cli.js:141777:12)
+      at Object.onceWrapper (events.js:519:28)
+      at IncomingMessage.emit (events.js:412:35)
+      at endReadableNT (internal/streams/readable.js:1334:12)
+      at processTicksAndRejections (internal/process/task_queues.js:82:21)
+
+npm manifest: 
+  {
+    "name": "react-complete-guide",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "@testing-library/jest-dom": "^5.11.6",
+      "@testing-library/react": "^11.2.2",
+      "@testing-library/user-event": "^12.5.0",
+      "react": "^17.0.1",
+      "react-dom": "^0.0.0-experimental-39a3b72c6-20230414",
+      "react-router-dom": "^5.3.4",
+      "react-scripts": "4.0.1",
+      "web-vitals": "^0.2.4"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": [
+        "react-app",
+        "react-app/jest"
+      ]
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    },
+    "devDependencies": {
+      "@types/react": "^18.0.35",
+      "@types/react-dom": "^18.0.11"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
